@@ -1,0 +1,242 @@
+/*===============================================
+Common css
+=================================================*/
+body{font-family: arial;}
+
+/*===============================================
+Header css
+=================================================*/
+.header {
+  background: #060773;
+  overflow: hidden;
+  padding: 23px 0;
+  width: 100%;
+}
+.mini_menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+  }
+.mini_menu ul li {display: block;float: left;
+
+}
+.mini_menu ul a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: -2px;
+  padding: 11px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arial;
+}
+  .search_aria {
+    float: right;
+    width: 221px;
+  }
+.search_aria form{
+      font-size: 20px;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 174px;
+  }
+  .logo p {
+    color: #060773;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-left: 444px;
+    margin-top: -99px;
+    font-family: arial;
+  }
+.social a img {
+    float: right;
+    margin: 13px;
+    padding-right: 8px;
+    padding-top: 20px;
+    width: 55px;
+  }
+/*===============================================
+Menu css
+=================================================*/
+.menu {
+  background: #252823 none repeat scroll 0 0;
+  overflow: hidden;
+  padding: 18px 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+  }
+.menu ul li {display: block;float: left;
+
+}
+.menu ul a {
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 38px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+.menu ul a:hover{color: #F77705;}
+
+/*===============================================
+About Sumting css
+=================================================*/
+
+.img {
+  float: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-top: 20px;
+}
+.cover_title {
+  display: block;
+  padding-top: 22px;
+  text-align: center;
+}
+.cover_title h2 {
+  color: #252823;
+  font-size: 57px;
+}
+.cover_title p {
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: -34px;
+  text-align: left;
+}
+
+
+/*===============================================
+Recent work css
+=================================================*/
+
+.recent_work {
+  background: #dddd none repeat scroll 0 0;
+  border: 4px solid #060773;
+  border-radius: 27px;
+  margin-bottom: 24px;
+  margin-left: 573px;
+  margin-top: 24px;
+  width: 303px;
+}
+
+.recent_work:hover{background: #060773;}
+.recent_work h2 {
+  color: #060773;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 2px;
+}
+.recent_work:hover h2 {background: #060773; color: #fff;}
+
+/*===============================================
+Content css
+=================================================*/
+
+.Content {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  border: 2px solid #06070B;
+  background: #ddd
+}
+.Content h2 {
+  background: #252823 none repeat scroll 0 0;
+  border-bottom: 3px solid #da7705;
+  color: #fff;
+  font-size: 29px;
+  margin: 14px;
+  padding: 7px;
+}
+.Content img {
+  border: 4px solid #ff8f71;
+  float: left;
+  margin: 8px;
+  width: 300px;
+ 
+}
+.Content p {
+  font-size: 20px;
+  line-height: 29px;
+  margin: 19px;
+}
+.Content a {
+  background: #fff9f9 none repeat scroll 0 0;
+  border: 2px solid #222;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 4px 6px;
+  text-decoration: none;
+  width: 73px;
+}
+.Content a:hover {
+  background: #000000 none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+}
+
+/*===============================================
+Footer css
+=================================================*/
+
+.footer_aria {
+  background:#060773 ;
+  height: 100px;
+  text-align: center;
+  color: #ffff;
+}
+.footer_aria ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer_aria ul li {
+  display: inline-block;
+  padding-top: 16px;
+}
+.footer_aria ul li a {
+  color: #fcfd19;
+  font-size: 25px;
+  margin: 5px;
+  font-weight: bold;
+}
+.footer_aria p {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+}
+#cover{border: 2px solid #252823;}
+
+/*===============================================
+Contact From css
+=================================================*/
+.contact_from {
+  font-size: 20px;
+  line-height: 33px;
+  margin: 10px;
+  padding-bottom: 20px;
+  width: 400px;
+}
+.contact_from input{}
+.contact_from p{}
